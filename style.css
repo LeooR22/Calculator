@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "digital";
+    src: url(fontkit/digital-7-webfont.woff)
+    }
+
 .main{
      display: flex;
      align-items: center;
@@ -17,16 +22,17 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 140px;
+    height: 150px;
     
 }
 
 .display{ 
     width: 350px;
-    height: 100px;
+    height: 125px;
     background-color: rgba(252, 252, 252, 0.959);
     border-radius: 5px;
     border: 2px black solid;
+    background-color: black;
 }
 
 .buttons-main{ 
@@ -54,6 +60,7 @@
     width: 170px;
     height: 65px;
     background-color: rgb(115, 140, 255);
+    
 }
 
 .buttons-set2{
@@ -65,12 +72,14 @@
     height: 330px;
     grid-gap: 15px;
     
+    
 }
 
 .numbers{
-    font-size: 22px;
+    font-size: 35px;
     border: 1px black solid;
     border-radius: 5px;
+    font-family: digital, Arial, Helvetica, sans-serif;
 }
 
 .numbers:hover{
@@ -99,4 +108,27 @@
 #delete:active{
     transform: scale(1.05);
     box-shadow: 3px 3px 3px black;
+}
+
+h1{
+    text-align: right;
+    margin-right: 7%;    
+    font-size: 25px;
+    height: 10px;
+    padding: 50;
+    margin-bottom: 20px;
+    margin-top: auto;
+    margin-top: 5%;
+    font-family: digital, Arial, Helvetica, sans-serif;
+    color: rgb(0,255,0)
+}
+
+h2{
+    text-align: right;
+    margin-right: 7%;
+    font-size: 40px;
+    height: 10px;
+    margin-top: 12%;
+    font-family: digital, Arial, Helvetica, sans-serif;
+    color: rgb(0,255,0)
 }
