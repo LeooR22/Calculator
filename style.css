@@ -3,6 +3,13 @@
     src: url(fontkit/digital-7-webfont.woff)
     }
 
+.wallpaper{
+   
+    background-image: url(https://www.bbva.com/wp-content/uploads/2019/08/Regreso-a-clases-BBVA-Mexico--1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: orange;
+}
 .main{
      display: flex;
      align-items: center;
