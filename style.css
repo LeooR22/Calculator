@@ -21,8 +21,9 @@
   width: 400px;
   height: 600px;
   background-color: rgb(175, 170, 170);
-  border: 2px black solid;
+  border: 3px black solid;
   border-radius: 20px;
+  background-image: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/silver-brushed-metal-texture.jpg);
 }
 
 .display-main{
@@ -51,8 +52,8 @@
 }
 
 #clear{
-    border-radius: 5px;
-    border: 1px black solid;
+    border-radius: 15px;
+    border: 2px black solid;
     font-size: 22px;
     width: 170px;
     height: 65px;
@@ -61,8 +62,8 @@
 }
 
 #delete{
-    border-radius: 5px;
-    border: 1px black solid;
+    border-radius: 15px;
+    border: 2px black solid;
     font-size: 22px;
     width: 170px;
     height: 65px;
@@ -84,8 +85,8 @@
 
 .numbers{
     font-size: 35px;
-    border: 1px black solid;
-    border-radius: 5px;
+    border: 2px black solid;
+    border-radius: 15px;
     font-family: digital, Arial, Helvetica, sans-serif;
 }
 
@@ -138,4 +139,16 @@ h2{
     margin-top: 12%;
     font-family: digital, Arial, Helvetica, sans-serif;
     color: rgb(0,255,0)
+    
+}
+#lastOperationScreen{
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+#currentOperationScreen{
+    word-wrap: break-word;
+    word-break: break-all;
+    
 }

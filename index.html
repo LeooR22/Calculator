@@ -12,8 +12,8 @@
         <div class="calculator">
           <div class="display-main">
               <div class="display">
-                  <h1>150 x 30</h1>
-                  <h2>4500</h2>
+                  <h1 id="lastOperationScreen"></h1>
+                  <h2 id="currentOperationScreen"></h2>
               </div>
           </div>
           <div class="buttons-main">
@@ -22,22 +22,26 @@
                   <button class="especialButtons" id="delete">DELETE</button>
               </div>
               <div class="buttons-set2">
-                  <button class="numbers" id="n7">7</button>
-                  <button class="numbers" id="n8">8</button>
-                  <button class="numbers" id="n9">9</button>
-                  <button class="numbers" id="">/</button>
-                  <button class="numbers" id="n4">4</button>
-                  <button class="numbers" id="n5">5</button>
-                  <button class="numbers" id="n6">6</button>
-                  <button class="numbers" id="">x</button>
-                  <button class="numbers" id="n1">1</button>
-                  <button class="numbers" id="n2">2</button>
-                  <button class="numbers" id="n3">3</button>
-                  <button class="numbers" id="">-</button>
-                  <button class="numbers" id="">.</button>
-                  <button class="numbers" id="n0">0</button>
-                  <button class="numbers" id="">=</button>
-                  <button class="numbers" id="">+</button>
+
+                  <button class="numbers" data-number>7</button>
+                  <button class="numbers" data-number>8</button>
+                  <button class="numbers" data-number>9</button>
+                  <button class="numbers" data-operator>÷</button>
+
+                  <button class="numbers" data-number>4</button>
+                  <button class="numbers" data-number>5</button>
+                  <button class="numbers" data-number>6</button>
+                  <button class="numbers" data-operator>X</button>
+
+                  <button class="numbers" data-number>1</button>
+                  <button class="numbers" data-number>2</button>
+                  <button class="numbers" data-number>3</button>
+                  <button class="numbers" data-operator>-</button>
+
+                  <button class="numbers" id="point">.</button>
+                  <button class="numbers" data-number>0</button>
+                  <button class="numbers" id="equal">=</button>
+                  <button class="numbers" data-operator>+</button>
                   
                   
               </div>
